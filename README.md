@@ -8,14 +8,6 @@ The Recipe Finder Web App is a ReactJS application that allows users to search f
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Demo
-
-You can see a live demo of the app here: [Demo Link](#)
 
 ## Features
 
