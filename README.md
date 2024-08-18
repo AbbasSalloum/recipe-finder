@@ -70,27 +70,3 @@ You can see a live demo of the app here: [Demo Link](#)
 3. Enter a search query (e.g., "chicken") in the search bar and press Enter.
 
 4. Browse through the list of recipes that appear based on your search.
-
-## Folder Structure
-
-```plaintext
-/src
-│
-├── /components          # Reusable UI components
-│   ├── RecipeCard.js    # Component to display individual recipe details
-│   ├── RecipeList.js    # Component to display a list of recipes
-│   └── SearchBar.js     # Component for the search bar
-│
-├── /pages               # App pages (views)
-│   └── HomePage.js      # Home page containing the search bar and recipe list
-│
-├── /redux               # Redux-related files
-│   ├── slices           # Redux slices for state management
-│   │   └── recipeSlice.js # Slice for managing recipes state
-│   └── store.js         # Redux store setup
-│
-├── App.js               # Main app component
-├── index.js             # Entry point of the application
-├── i18n.js              # Localization configuration
-└── index.css            # Global styles (optional)
-```
