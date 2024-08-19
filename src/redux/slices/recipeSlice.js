@@ -4,7 +4,9 @@ import axios from 'axios';
 export const fetchRecipes = createAsyncThunk(
     'recipes/fetchRecipes',
     async (query) => {
-        const response = await axios.get(`API_URL_HERE?q=${query}`);
+        const response = await axios.get(
+            `${process.env.REACT_APP_API_URL}?q=${query}&app_id=${process.env.REACT_APP_API_ID}&app_key=${process.env.REACT_APP_API_KEY}`
+          );
         return response.data.hits.map(hit => hit.recipe);
     }
 );
