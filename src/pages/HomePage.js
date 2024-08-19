@@ -17,7 +17,9 @@ const HomePage = () => {
 
   return (
     <div>
-      <SearchBar onSearch={handleSearch} /> {/* Search bar component */}
+        <div style={{ marginTop: '25px' }}>
+            <SearchBar onSearch={handleSearch} />
+        </div>{/* Search bar component */}
       
       {/* Conditional rendering based on API call status */}
       {status === 'loading' && <div>Loading...</div>}
